@@ -14,13 +14,15 @@ Actually, the PSIPRED workbench have a limit size of publication. So, to get aro
 
 ### PSIPRED CARTOON : First half
 
-<img src="first_psipred.svg" />
+<img src="https://github.com/FilouPlains/STRUCTURAL_PROJECT/blob/main/PSIPRED/first_psipred.svg" />
 
-![first_psipred.svg](first_psipred.svg)
+![first_psipred.svg](https://github.com/FilouPlains/STRUCTURAL_PROJECT/blob/main/PSIPRED/first_psipred.svg)
 
 ### PSIPRED CARTOON : Second half
 
 ![last_psipred.svg](last_psipred.svg)
 
 ### Global analysis
+
+
 
