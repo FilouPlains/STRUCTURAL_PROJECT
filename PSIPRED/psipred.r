@@ -2,7 +2,9 @@ rm(list = ls())
 
 library("viridis")
 
+# Getting secondart structure.
 ss <- t(read.csv("PSIPRED/psipred.csv", header = FALSE))[, 1]
+# Getting confidence level.
 conf <- t(read.csv("PSIPRED/psipred.csv", header = FALSE))[, 2]
 v_col <- viridis(3)
 
@@ -10,11 +12,14 @@ png("PSIPRED/psipred.png", width = 13, height = 5, units = "in", res = 200)
 
 par(family = "Times")
 
+# We print only from `RESOLUTION` to `RESOLUTION` residue.
 RESOLUTION <- 5
+# If we want to divide the plot amplitude.
 AMP_REDUCTOR <- 1
 
 filter <- seq_len(length(ss)) %% RESOLUTION == 0
 
+# Some data are filtered.
 barplot(
     conf[filter] / AMP_REDUCTOR + 0.5,
     col = v_col[ss + 1][filter],
