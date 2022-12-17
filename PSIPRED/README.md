@@ -14,6 +14,8 @@ Actually, the PSIPRED workbench have a limit size of publication. So, to get aro
 
 ### PSIPRED CARTOON : First half
 
+<img src="first_psipred.svg" />
+
 ![first_psipred.svg](first_psipred.svg)
 
 ### PSIPRED CARTOON : Second half
