@@ -1,5 +1,7 @@
 # 🔮 PSIPRED RESULTS
 
+**[Main results page is here: ../README.md](../README.md)**
+
 **🕵️‍♂️ Citation :**
 - Jones DT. (1999) Protein secondary structure prediction based on position-specific scoring matrices. J. Mol. Biol. 292: 195-202.
 - Buchan DWA, Jones DT (2019). The PSIPRED Protein Analysis Workbench: 20 years on. Nucleic Acids Research. https://doi.org/10.1093/nar/gkz297
@@ -25,7 +27,7 @@ All results in `psipred.horiz` have been translated to obtain a `psipred.csv` wi
 > On the first line of `psipred.csv` we have the secondary structure predicted, while on the second line we have the associated confidence level.
 
 ![psipred_results](psipred.png)
- **PSIPRED prediction results on the domain of interest.**</strong>** The resolution is set at 5 (printing only `% 5 == 0` residu index). The confidence level given here is the same as PSIPRED `+ 0.5`.
+ **PSIPRED prediction results on the domain of interest.** The resolution is set at 5 (printing only `% 5 == 0` residu index). The confidence level given here is the same as PSIPRED `+ 0.5`.
 
 
 For general analysis, we can see that there are two alpha helix with high confidence level (approximatively 2148-2248 and 2323-2398). In general, all part with coil are predicted with a lower confidence level than the rest.
