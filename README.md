@@ -13,7 +13,7 @@ Master 2 Bio-informatics at Univerité de Paris
 
 ## 🧐 Context
 
-This project have do be done for our cursus of master degrees. More precisely, for our class of structural bioinformatics. Here, we have the next protein (**UNIPROT code = P0DTC1**):
+This project have do be done for our cursus of master degrees. More precisely, for our class of structural bioinformatics. Here, we have the next protein ([**UNIPROT code = P0DTC1**](https://www.uniprot.org/uniprotkb/P0DTC1/entry)):
 ```fasta
 >sp|P0DTC1|R1A_SARS2 Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 PE=1 SV=1
 APTKVTFGDDTVIEVQGYKSVNITFELDERIDKVLNEKCSAYTVELGTEVNEFACVVADA
