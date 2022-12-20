@@ -86,6 +86,14 @@ By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does hav
 
 **[Results are described here: PSIPRED/README.md](PSIPRED/README.md)**
 
+### 🪄 ALPHAFOLD2 results
+
+**[Results are described here: ALPHAFOLD/README.md](ALPHAFOLD/README.md)**
+
+### 🖇 MODELLER results
+
+**[Results are described here: MODELLER/README.md](MODELLER/README.md)**
+
 ## 🪢 INTACT database
 
 **[Results are described here: INTACT/README.md](INTACT/README.md)**

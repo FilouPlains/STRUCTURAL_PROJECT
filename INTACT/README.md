@@ -1,6 +1,6 @@
 # 🪢 INTACT
 
-**[Main results page is here: ../README.md](../README.md)**
+**[Main results page is here: ../README.md#-intact-database](../README.md#-intact-database)**
 
 **🕵️‍♂️ Citation :** Orchard S, et al. (2013) The MIntAct project - IntAct as a common curation platform for 11 molecular interaction databases. Nucleic Acids Research, 42(Database issue):D358-63, 13 Nov 2013, PMID: 24234451
 
@@ -19,3 +19,5 @@ By checking the INTACT databse, we can see that our protein does interact with o
 - Reasons:
   1. There is structural information.
   2. This protein interact with our protein of interest.
+
+**[Main results page is here: ../README.md#-intact-database](../README.md#-intact-database)**
