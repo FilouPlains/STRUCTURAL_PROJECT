@@ -21,8 +21,7 @@ a = automodel(
     # Alignment filename.
     alnfile="align.ali",
     # codes of the templates.
-    knowns=["7THH", "6WUU", "7KAG", "7T9W", "7LGO", "6WOJ", "2KQV", "2W2G",
-            "4XW3"],
+    knowns=["first_half", "second_half"],
     # Code of the target.
     sequence="P0DTC1",
     assess_methods=(assess.DOPE, assess.GA341)
