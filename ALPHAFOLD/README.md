@@ -1,6 +1,6 @@
 # 🪄 ALPHAFOLD2 RESULTS
 
-**[Main results page is here: ../README.md#-alphafold-results](../README.md#-alphafold-results)**
+**[Main results page is here: ../README.md#-alphafold2-results](../README.md#-alphafold2-results)**
 
 **🕵️‍♂️ Citation :**
 
@@ -12,4 +12,4 @@
 
 ## 📊 Results
 
-**[Main results page is here: ../README.md#-alphafold-results](../README.md#-alphafold-results)**
+**[Main results page is here: ../README.md#-alphafold2-results](../README.md#-alphafold2-results)**
