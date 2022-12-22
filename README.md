@@ -102,11 +102,11 @@ By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does hav
 
 ### Study of the normal modes
 
-
-
-### Molecular dynamic simulations
+### 🎥 Molecular dynamic simulations
 
 For this purpose, we are going to use the software GROMACS in all-atoms.
+
+**[Results and methods are described here: GROMACS/README.md](GROMACS/README.md)**
 
 ## 🔨 Protein-protein docking
 

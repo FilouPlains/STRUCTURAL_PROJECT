@@ -5,7 +5,7 @@
 **🕵️‍♂️ Citation :**
 
 
-**🔗 Acces link:** [https://salilab.org/modeller/](https://salilab.org/modeller/)
+**🔗 Acces link:** [https://alphafold.ebi.ac.uk/](https://alphafold.ebi.ac.uk/)
 
 ## 💻 Method
 
