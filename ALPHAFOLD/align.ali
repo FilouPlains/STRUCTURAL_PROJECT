@@ -1,4 +1,4 @@
->first_half
+>P1;first_half
 structureX:first_half:1:A:1000:A::::
 APTKVTFGDDTVIEVQGYKSVNITFELDERIDKVLNEKCSAYTVELGTEVNEFACVVADA
 VIKTLQPVSELLTPLGIDLDEWSMATYYLFDESGEFKLASHMYCSFYPPDEDEEEGDCEE
@@ -32,7 +32,7 @@ FKKGVQIPCTCGKQATKYLVQQESPFVMMSAPPAQYELKH--------------------
 ------------------------------------------------------------
 -------------------------------------------------------*
 
->second_half
+>P1;second_half
 structureX:second_half:1:A:1000:A::::
 ------------------------------------------------------------
 ------------------------------------------------------------
