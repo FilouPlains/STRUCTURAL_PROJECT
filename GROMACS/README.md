@@ -33,6 +33,7 @@ C++ compiler flags: -msse4.1 -pthread -Wno-missing-field-initializers -fexcess-p
 ### Topology generation
 
 ```bash
+# Convert a `.pdb` to a `.gro` file.
 gmx pdb2gmx -f ../ALPHAFOLD/BEST_MODEL.pdb -o P0DTC1.gro
 ```
 
@@ -45,20 +46,23 @@ Select water model:
 ### Defining box
 
 ```bash
+# Adding a box for periodic conditions.
 gmx editconf -f P0DTC1.gro -o box.gro -c -d 1.0 -bt cubic
 ```
 
 ### Solvating the protein
 
 ```bash
+# Addinf THE waters.
 gmx solvate -cp box.gro -cs spc216.gro -o solvant.gro -p topol.top
 ```
 
 ### Ions addition
 
 ```bash
+# Generate a file to add ions.
 gmx grompp -f ions.mdp -c solvant.gro -p topol.top -o ions.tpr
-
+# Adding ions (neutralize all charges).
 gmx genion -s ions.tpr -o ions.gro -p topol.top -pname NA -nname CL -neutral
 ```
 
@@ -67,26 +71,34 @@ gmx genion -s ions.tpr -o ions.gro -p topol.top -pname NA -nname CL -neutral
 **Steepest descent minimization:**
 
 ```bash
+# Generate a file to do the minimization.
 gmx grompp -f minim_steep.mdp -c ions.gro -p topol.top -o steep.tpr
-
+# Run the minimization.
 gmx mdrun -v -deffnm steep
-
+# Check energy graph.
 gmx energy -f steep.edr -o steep.xvg
-
 ```
+
+![steep.png](steep.png)
+**Graphique de la diminution de l'énergie potentielle du système.** Ici, il y a bien minimisation du système
 
 **Conjugate gradient minimization:**
 
 ```bash
+# Generate a file to do the minimization.
 gmx grompp -f minim_cg.mdp -c steep.gro -p topol.top -o cg.tpr
-
+# Run the minimization.
 gmx mdrun -v -deffnm cg
-
+# Check energy graph.
 gmx energy -f cg.edr -o cg.xvg
-
 ```
 
+Pas de graphique à afficher, l'énergie diminue seulement une fois:
 
+| **Temps (en ps)** | **Énergie potentielle (kJ/mol)** |
+| :---------------: | :------------------------------: |
+|     0.000000      |         -15095363.000000         |
+|     0.000000      |         -15095728.000000         |
 
 ## 📊 Results
 
