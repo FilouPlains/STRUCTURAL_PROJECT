@@ -79,7 +79,7 @@ gmx mdrun -v -deffnm steep
 gmx energy -f steep.edr -o steep.xvg
 ```
 
-**Conjugate gradient minimization:**
+**Conjugated gradient minimization:**
 
 ```bash
 # Generate a file to do the minimization.
@@ -112,16 +112,27 @@ gmx mdrun -deffnm npt
 gmx energy -f npt.edr -o npt.xvg
 ```
 
+### Production
+
+```bash
+# Generate a file to do the production.
+gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md.tpr
+# Run the production.
+gmx mdrun -deffnm md
+# Check pression, density and temperature graph.
+gmx energy -f md.edr -o md.xvg
+```
+
 ## 📊 Results
 
-### Minimisation du système
+### Système minimization
 
 **With using the steepest descent algorithm to do the minimization:**
 
 ![steep.png](steep.png)
 **Graphique de la diminution de l'énergie potentielle du système.** Ici, il y a bien minimisation du système.
 
-**With using the conjugate gradient algorithm to do the minimization:** There is not plot to show, as far as there is only one value that have been computed *(see below)*.
+**With using the conjugated gradient algorithm to do the minimization:** There is not plot to show, as far as there is only one value that have been computed *(see below)*.
 
 | **Temps (en ps)** | **Énergie potentielle (kJ/mol)** |
 | :---------------: | :------------------------------: |
