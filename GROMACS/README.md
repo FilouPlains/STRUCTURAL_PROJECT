@@ -79,9 +79,6 @@ gmx mdrun -v -deffnm steep
 gmx energy -f steep.edr -o steep.xvg
 ```
 
-![steep.png](steep.png)
-**Graphique de la diminution de l'énergie potentielle du système.** Ici, il y a bien minimisation du système
-
 **Conjugate gradient minimization:**
 
 ```bash
@@ -93,13 +90,42 @@ gmx mdrun -v -deffnm cg
 gmx energy -f cg.edr -o cg.xvg
 ```
 
-Pas de graphique à afficher, l'énergie diminue seulement une fois:
+### Equilibration to NVT
+
+```bash
+# Generate a file to do the NVT equilibration.
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+# Run the NVT equilibration.
+gmx mdrun -deffnm nvt
+# Check temperature graph.
+gmx energy -f nvt.edr -o nvt.xvg
+```
+
+### Equilibration to NPT
+
+```bash
+# Generate a file to do the NPT equilibration.
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+# Run the NPT equilibration.
+gmx mdrun -deffnm npt
+# Check pression, density and temperature graph.
+gmx energy -f npt.edr -o npt.xvg
+```
+
+## 📊 Results
+
+### Minimisation du système
+
+**With using the steepest descent algorithm to do the minimization:**
+
+![steep.png](steep.png)
+**Graphique de la diminution de l'énergie potentielle du système.** Ici, il y a bien minimisation du système.
+
+**With using the conjugate gradient algorithm to do the minimization:** There is not plot to show, as far as there is only one value that have been computed *(see below)*.
 
 | **Temps (en ps)** | **Énergie potentielle (kJ/mol)** |
 | :---------------: | :------------------------------: |
 |     0.000000      |         -15095363.000000         |
 |     0.000000      |         -15095728.000000         |
-
-## 📊 Results
 
 **[Main results page is here: ../README.md#-molecular-dynamic-simulations](../README.md#-molecular-dynamic-simulations)**
