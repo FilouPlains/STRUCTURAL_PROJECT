@@ -2,7 +2,7 @@
 
 **[Main results page is here: ../README.md#-molecular-dynamic-simulations](../README.md#-molecular-dynamic-simulations)**
 
-**🕵️‍♂️ Citation :**
+**🕵️‍♂️ Citation :** Bauer, P., Hess, B. & Lindahl, E. GROMACS 2022.1 Manual. (2022) doi:10.5281/ZENODO.6451567.
 
 
 **🔗 Acces link:** [https://www.gromacs.org/](https://www.gromacs.org/)
