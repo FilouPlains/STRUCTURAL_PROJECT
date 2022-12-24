@@ -53,7 +53,7 @@ gmx editconf -f P0DTC1.gro -o box.gro -c -d 1.0 -bt cubic
 ### Solvating the protein
 
 ```bash
-# Addinf THE waters.
+# Adding waters.
 gmx solvate -cp box.gro -cs spc216.gro -o solvant.gro -p topol.top
 ```
 
