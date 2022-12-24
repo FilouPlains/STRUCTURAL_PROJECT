@@ -100,7 +100,7 @@ By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does hav
 
 ## 📐 Molecular dynamic simulations
 
-### Study of the normal modes
+### 🔬 Study of the normal modes
 
 ### 🎥 Molecular dynamic simulations
 
