@@ -102,6 +102,20 @@ By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does hav
 
 ### 🔬 Study of the normal modes
 
+### 🌡 H++
+
+**🕵️‍♂️ Citation :**
+- Ramu Anandakrishnan, Boris Aguilar and Alexey V. Onufriev, "H++ 3.0: automating pK prediction and the preparation of biomolecular structures for atomistic molecular modeling and simulation", Nucleic Acids Res., 40(W1):W537-541. (2012).
+- Myers J, Grothaus G, Narayanan S, Onufriev A, "A simple clustering algorithm can be accurate enough for use in calculations of pKs in macromolecules", Proteins, 63, 928-938 (2006).
+- Gordon JC, Myers JB, Folta T, Shoja V, Heath LS and Onufriev A., "H++: a server for estimating pKas and adding missing hydrogens to macromolecules", Nucleic Acids Res. Jul 1;33:W368-71. (2005). 
+
+**🔗 Acces link:** [http://newbiophysics.cs.vt.edu/H++/](http://newbiophysics.cs.vt.edu/H++/)
+
+We used H++ to protonate our structure. Like so, we can considerate the external influence of the solvant and the internal influence of other amino acids.
+
+![H++/protonate_structure.png](H++/protonate_structure.png)
+**Our obtain structure.** In red are the h-bonds compute by VMD.
+
 ### 🎥 Molecular dynamic simulations
 
 For this purpose, we are going to use the software GROMACS in all-atoms.

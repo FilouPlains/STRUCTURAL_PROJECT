@@ -90,7 +90,9 @@ gmx mdrun -v -deffnm cg
 gmx energy -f cg.edr -o cg.xvg
 ```
 
-### Equilibration to NVT
+### Equilibration
+
+**Equilibration to NVT:**
 
 ```bash
 # Generate a file to do the NVT equilibration.
@@ -101,7 +103,7 @@ gmx mdrun -deffnm nvt
 gmx energy -f nvt.edr -o nvt.xvg
 ```
 
-### Equilibration to NPT
+**Equilibration to NPT:**
 
 ```bash
 # Generate a file to do the NPT equilibration.
