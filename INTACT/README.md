@@ -11,11 +11,12 @@
 ![intact_example_results](network_1.png)
 ![intact_example_results](network_2.png)
 ![intact_example_results](network_3.png)
-**Three INTACT results cluster.** All of those proteins interact with our protein of interest. *Blue= Homo sapiens*; *brown=* chemical synthesis; *purple=* other viruses; *triangle=* bioactive entity; *circle=* protein; *losange=* ARN.
+
+**Three INTACT results cluster.** All of those proteins interact with our protein of interest. *Blue= Homo sapiens*; *brown=* chemical synthesis; *purple=* other viruses; *triangle=* bioactive entity; *circle=* protein; *diamond=* ARN.
 
 By checking the INTACT databse, we can see that our protein does interact with other proteins. There is three cluster identified. This cluster have been choosed as far as there's only interaction between our protein and other from *Homo sapiens*. For the docking protein-protein analysis, we will work with:
 - CDKAL1.
-- On UNIPROT: [P0DTC1](https://www.uniprot.org/uniprotkb/P0DTC1/entry#structure).
+- On UNIPROT: [Q5VV42](https://www.uniprot.org/uniprotkb/Q5VV42/).
 - Reasons:
   1. There is structural information.
   2. This protein interact with our protein of interest.

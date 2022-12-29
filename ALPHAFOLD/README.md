@@ -21,12 +21,15 @@ After, we used MODELLER to re-assemble the two part into one [**(cf. MODELLER pa
 *Low confidence - ![../inferno.svg](../inferno.svg) - High confidence*
 
 ![first_half.png](first_half.png)
+
 **First part modelled by ALPHAFOLD 2.** Colour palette is inferno.
 
 ![second_half.png](second_half.png)
+
 **Second part modelled by ALPHAFOLD 2.** Colour palette is inferno.
 
 ![BEST_MODEL.png](BEST_MODEL.png)
+
 **Full model, after completion with MODELLER.** Colour indicate secondary structure.
 
 There's some loops and some helix that AlphaFold is not confident about. But overall, the model is quite good (even better than our MODELLER model). The only problem is the time and the memory complexity of the model, which led us to use MODELLER instead of using only AlphaFold.

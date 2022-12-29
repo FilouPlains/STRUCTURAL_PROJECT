@@ -27,6 +27,7 @@ All results in `psipred.horiz` have been translated to obtain a `psipred.csv` wi
 > On the first line of `psipred.csv` we have the secondary structure predicted, while on the second line we have the associated confidence level.
 
 ![psipred_results](psipred.png)
+
  **PSIPRED prediction results on the domain of interest.** The resolution is set at 5 (printing only `% 5 == 0` residu index). The confidence level given here is the same as PSIPRED `+ 0.5`.
 
 

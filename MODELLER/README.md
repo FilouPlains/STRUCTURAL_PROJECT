@@ -23,6 +23,7 @@ After the alignement is done, we index correctly the sequences to match MODELLER
 ## 📊 Results
 
 ![BEST_MODEL.png](BEST_MODEL.png)
+
 **The best model that MODELLER succeded to produce.** Obviously, it's bad, there is too much random coil.
 
 | **PDB access code** | **RMSD (Å)** |

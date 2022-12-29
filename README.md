@@ -75,6 +75,7 @@ This repository is much likely a way to keep track of all jobs that are going to
 Launching a BLAST-P show us that the proteins with high coverage percentage and identity rate are from viruses. The results have not been showed here, as far as there are not very informative.
 
 ![pdb_results](BLASTP/blastp_pdb_results.png)
+
 **NCBI graphical summary.** Here, we can see that a good proportion of our protein is well covered.
 
 By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does have a structural information with good identity rate. But the end part does not (and we found we PSIPRED that those part should contain helix). Some additional analysis could be done:
@@ -114,6 +115,7 @@ By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does hav
 We used H++ to protonate our structure. Like so, we can considerate the external influence of the solvant and the internal influence of other amino acids.
 
 ![H++/protonate_structure.png](H++/protonate_structure.png)
+
 **Our obtain structure.** In red are the h-bonds compute by VMD.
 
 ### 🎥 Molecular dynamic simulations
@@ -123,5 +125,7 @@ For this purpose, we are going to use the software GROMACS in all-atoms.
 **[Results and methods are described here: GROMACS/README.md](GROMACS/README.md)**
 
 ## 🔨 Protein-protein docking
+
+**[Results and methods are described here: DOCKING/README.md](DOCKING/README.md)**
 
 ## 📜 Conclusion

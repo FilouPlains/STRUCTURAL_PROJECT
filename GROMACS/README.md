@@ -132,7 +132,8 @@ gmx energy -f md.edr -o md.xvg
 **With using the steepest descent algorithm to do the minimization:**
 
 ![steep.png](steep.png)
-**Graphique de la diminution de l'énergie potentielle du système.** Ici, il y a bien minimisation du système.
+
+**Plot of the dimunution of the potential energy.** Here, there is a good minimisation of the system.
 
 **With using the conjugated gradient algorithm to do the minimization:** There is not plot to show, as far as there is only one value that have been computed *(see below)*.
 
