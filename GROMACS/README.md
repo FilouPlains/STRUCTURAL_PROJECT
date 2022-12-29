@@ -127,7 +127,7 @@ gmx energy -f md.edr -o md.xvg
 
 ## 📊 Results
 
-### Système minimization
+### **Système minimization**
 
 **With using the steepest descent algorithm to do the minimization:**
 

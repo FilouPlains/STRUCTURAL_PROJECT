@@ -17,6 +17,9 @@ For doing this modele, we used ColabFold accessible here: [https://github.com/so
 After, we used MODELLER to re-assemble the two part into one [**(cf. MODELLER part for the general method)**](../MODELLER/README.md).
 
 ## 📊 Results
+
+### **Alphafold output:**
+
 **INFERNO COLOUR PALETTE:**
 *Low confidence - ![../inferno.svg](../inferno.svg) - High confidence*
 
@@ -33,5 +36,23 @@ After, we used MODELLER to re-assemble the two part into one [**(cf. MODELLER pa
 **Full model, after completion with MODELLER.** Colour indicate secondary structure.
 
 There's some loops and some helix that AlphaFold is not confident about. But overall, the model is quite good (even better than our MODELLER model). The only problem is the time and the memory complexity of the model, which led us to use MODELLER instead of using only AlphaFold.
+
+### **Model evaluation:**
+
+**QMEANDisCo:**
+
+**🕵️‍♂️ Citation :** Studer, G., Rempfer, C., Waterhouse, A.M., Gumienny, G., Haas, J., Schwede, T. QMEANDisCo - distance constraints applied on model quality estimation. Bioinformatics 36, 1765-1771 (2020). 
+
+**🔗 Acces link:** [https://swissmodel.expasy.org/qmean/](https://swissmodel.expasy.org/qmean/)
+
+> **QMEANDisCo definition:**
+> 
+> The default method used by SWISS-MODEL homology modelling pipeline and Structure Assessment - a single model method combining statistical potentials and agreement terms with a distance constraints (DisCo) score. DisCo evaluates consistencies of pairwise CA-CA distances from a model with constraints extracted from homologous structures. All scores are combined using a neural network trained to predict per-residue lDDT scores.
+
+![MODEL_EVALUATION.png](MODEL_EVALUATION.png)
+
+**Model evaluation of the obtain structure.** In purple are structure with a `QMEANDisCo < 0.4`. Actually, only loops are underline and a helix (with a low confident level output by Alphafold). Overall, the obtain model look good.
+
+By looking with all those results, the model output by Alphafold 2 look to be good to be used for further computation.
 
 **[Main results page is here: ../README.md#-alphafold2-results](../README.md#-alphafold2-results)**
