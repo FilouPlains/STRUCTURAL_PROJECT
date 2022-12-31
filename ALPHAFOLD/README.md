@@ -51,7 +51,7 @@ There's some loops and some helix that AlphaFold is not confident about. But ove
 
 ![MODEL_EVALUATION.png](MODEL_EVALUATION.png)
 
-**Model evaluation of the obtain structure.** In purple are structure with a `QMEANDisCo < 0.4`. Actually, only loops are underline and a helix (with a low confident level output by Alphafold). Overall, the obtain model look good.
+**Model evaluation of the obtain structure.** In red are structure with a `QMEANDisCo local score < 0.5`. Actually, only loops are underline and a helix (with a low confident level output by Alphafold). Overall, the obtain model look good.
 
 By looking with all those results, the model output by Alphafold 2 look to be good to be used for further computation.
 

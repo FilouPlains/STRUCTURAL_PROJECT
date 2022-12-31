@@ -26,4 +26,17 @@ Then we selected our protein is function of a `balanced` classification, which c
 
 **Results of the protein-protein docking.** Each color indicates a different pose. Actually, all protein are docked in the same region, showing that the interacting zone is quite good/interesting.
 
+![hydrophobic_interaction_1.png](hydrophobic_interaction_1.png)
+
+**First part of observe results after protein-protein docking.** Here, two hydrophobic interaction are underline. Here, only residues with a distance of 5 Å are shown between the two docked protein.
+
+
+![hydrophobic_interaction_2.png](hydrophobic_interaction_2.png)
+
+**First part of observe results after protein-protein docking.** Here, three hydrophobic interaction are underline, but note that there is other type of interaction. Here, only residues with a distance of 5 Å are shown between the two docked protein.
+
+Here two major points are notable:
+1. The 10 best docking position are in the same localisation, showing that this localisation is a potential interaction area.
+2. For the best docking position, a majority of the observed interactions are hydrophobic ones. This could lead to a problem that those part are, actually, expose to the solvant.
+
 **[Main results page is here: ../README.md#-protein-protein-docking](../README.md#-protein-protein-docking)**
