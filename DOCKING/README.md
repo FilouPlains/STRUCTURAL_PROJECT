@@ -22,4 +22,8 @@ Then we selected our protein is function of a `balanced` classification, which c
 
 ## 📊 Results
 
+![DOCKED_PROT.png](DOCKED_PROT.png)
+
+**Results of the protein-protein docking.** Each color indicates a different pose. Actually, all protein are docked in the same region, showing that the interacting zone is quite good/interesting.
+
 **[Main results page is here: ../README.md#-protein-protein-docking](../README.md#-protein-protein-docking)**
