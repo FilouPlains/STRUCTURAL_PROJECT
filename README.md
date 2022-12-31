@@ -103,6 +103,10 @@ By using NCBI's BLAST-P program, we can see that the 3/4 of the protein does hav
 
 ### 🔬 Study of the normal modes
 
+For this purpose, we are going to use the software ÉLNEMO.
+
+**[Results and methods are described here: NORMAL_MOD/README.md](NORMAL_MOD/README.md)**
+
 ### 🌡 H++
 
 **🕵️‍♂️ Citation :**
