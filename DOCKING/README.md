@@ -12,13 +12,13 @@
 
 ## 💻 Method
 
-We used this next protein, CDKAL1, as a ligand:
+We used our protein as a receptor and this next protein, CDKAL1, as a ligand:
 
 ![Q5VV42.png](Q5VV42.png)
 
 **Cartoon representation of CDKAL1.**
 
-All options have been left as default.
+Then we selected our protein is function of a `balanced` classification, which considerate `electrostatic-favored`, `hydrophobic-favored` and `VdW` interactions. Else, all options have been left as default.
 
 ## 📊 Results
 
