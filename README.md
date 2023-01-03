@@ -7,10 +7,6 @@
 
 Master 2 Bio-informatics at Univerité de Paris
 
-## 📂 Interesting path
-
-- 
-
 ## 🧐 Context
 
 This project have do be done for our cursus of master degrees. More precisely, for our class of structural bioinformatics. Here, we have the next protein ([**UNIPROT code = P0DTC1**](https://www.uniprot.org/uniprotkb/P0DTC1/entry)):
@@ -133,3 +129,9 @@ For this purpose, we are going to use the software GROMACS in all-atoms.
 **[Results and methods are described here: DOCKING/README.md](DOCKING/README.md)**
 
 ## 📜 Conclusion
+
+This is a very exploratory and simple project. We did not dig up more than that the obtain results because of the amount of time give to us. You shall see this Github more of a "How to launch these software" more than "This is how to interpret results", because we should have dig more into it. FOr instance, we choose a random protein for the docking without not really look at what it were *(even though, as a personal opinion, I feel like this were more like of "do it for do it", without any real necessity to)*.
+
+Overall, obtain results are quite promising. The only thing to do is to prolonged the molecular dynamic simulation.
+
+**[[THIS PROJECT WERE DONE IN 2 WEEKS]]**

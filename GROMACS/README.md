@@ -127,19 +127,54 @@ gmx energy -f md.edr -o md.xvg
 
 ## 📊 Results
 
-### **Système minimization**
+### **System minimization**
 
 **With using the steepest descent algorithm to do the minimization:**
 
-<iframe src="STEEP.html"></iframe>
+[**Results are present here: `STEEP.pdf`**](STEEP.pdf)
+
+The energy decrease and stabilize well. The show that this step is good.
 
 **Plot of the dimunution of the potential energy.** Here, there is a good minimisation of the system.
 
-**With using the conjugated gradient algorithm to do the minimization:** There is not plot to show, as far as there is only one value that have been computed *(see below)*.
+**With using the conjugated gradient algorithm to do the minimization:** There is not plot to show, as far as there is only one value that have been computed *(see below)*. This is due to the fact that the minimization criteria has been reached.
 
 | **Temps (en ps)** | **Énergie potentielle (kJ/mol)** |
 | :---------------: | :------------------------------: |
 |     0.000000      |         -15095363.000000         |
 |     0.000000      |         -15095728.000000         |
+
+### **Equilibration**
+
+**NVT:**
+
+[**Results are present here: `NVT.pdf`**](NVT.pdf)
+
+Temperature is stable. This step is validated.
+
+
+**NPT:**
+
+[**Results are present here: `NPT.pdf`**](NPT.pdf)
+
+Temperature, pressure and density are stable. This step is validated.
+
+### **MD**
+
+> **📝 NOTE** 
+> 
+> All trajectory data are not available. This is due to the fact that that hey are TOO heavy.
+
+**RMSD:**
+
+[**Results are present here: `RMSD.pdf`**](RMSD.pdf)
+
+The RMSD is very high (above 3 Å) and do not converge. This is due to the structure that keep moving. If the simulation would have been longer, the RMSD could have stabilized. But right now, with around 50 ns of simulation, this is not the case.
+
+**RMSF**
+
+[**Results are present here: `RMSF.pdf`**](RMSF.pdf)
+
+The RMSF is high due to the same reason as explained is the RMSD part. Note that the C-ter part is high because the protein was not centered into the box, leading to a leaving of those residues (for a short amount of time) out of the box.
 
 **[Main results page is here: ../README.md#-molecular-dynamic-simulations](../README.md#-molecular-dynamic-simulations)**
