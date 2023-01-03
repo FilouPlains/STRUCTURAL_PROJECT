@@ -8,9 +8,10 @@ ss <- t(read.csv("PSIPRED/psipred.csv", header = FALSE))[, 1]
 conf <- t(read.csv("PSIPRED/psipred.csv", header = FALSE))[, 2]
 v_col <- viridis(3)
 
-png("PSIPRED/psipred.png", width = 13, height = 5, units = "in", res = 200)
+# pdf("PSIPRED/psipred.pdf", width = 6.32, height = 2.5)
+png("PSIPRED/psipred.png", width = 6.32, height = 2.5, res = 300, units = "in")
 
-par(family = "Times")
+par(family = "Times", mar=c(4, 4, 0.4, 0.1))
 
 # We print only from `RESOLUTION` to `RESOLUTION` residue.
 RESOLUTION <- 5

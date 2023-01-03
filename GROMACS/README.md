@@ -131,7 +131,7 @@ gmx energy -f md.edr -o md.xvg
 
 **With using the steepest descent algorithm to do the minimization:**
 
-![steep.png](steep.png)
+<iframe src="STEEP.html"></iframe>
 
 **Plot of the dimunution of the potential energy.** Here, there is a good minimisation of the system.
 
