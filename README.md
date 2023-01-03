@@ -130,7 +130,7 @@ For this purpose, we are going to use the software GROMACS in all-atoms.
 
 ## 📜 Conclusion
 
-This is a very exploratory and simple project. We did not dig up more than that the obtain results because of the amount of time give to us. You shall see this Github more of a "How to launch these software" more than "This is how to interpret results", because we should have dig more into it. FOr instance, we choose a random protein for the docking without not really look at what it were *(even though, as a personal opinion, I feel like this were more like of "do it for do it", without any real necessity to)*.
+This is a very exploratory and simple project. We did not dig up more than that the obtain results because of the amount of time give to us. You shall see this Github more of a "How to launch these software" more than "This is how to interpret results", because we should have dig more into it. For instance, we choose a random protein for the docking without not really look at what it were *(even though, as a personal opinion, I feel like this were more like of "do it for do it", without any real necessity to)*.
 
 Overall, obtain results are quite promising. The only thing to do is to prolonged the molecular dynamic simulation.
 
